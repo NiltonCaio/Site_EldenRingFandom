@@ -188,6 +188,7 @@ figure img {
 .div_buy {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 95px;
 }
 
 .div_grups {
@@ -207,6 +208,30 @@ figure img {
 }
 
 .div_buy button:hover {
+    background-color: rgba(17, 17, 17, 0.506);
+    color: #e6e6e5;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    resize: none;
+}
+
+.div_formu h2 {
+    margin-top: 10px;
+}
+
+form button {
+    background-color: rgba(0, 0, 0, 0.506);
+    color: #F2BD41;
+}
+
+.div_formu button:hover {
     background-color: rgba(17, 17, 17, 0.506);
     color: #e6e6e5;
 }
